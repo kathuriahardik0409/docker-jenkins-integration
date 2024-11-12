@@ -16,7 +16,7 @@ bookList = [book1 , book2]
 # Home page for our web-app. This is the default route(/).
 @app.route('/')
 def welcome():
-    return jsonify("Welcome to my website folks")
+    return jsonify("Welcome to my website")
 
 # Route that displays the books in the list.
 @app.route('/books')
